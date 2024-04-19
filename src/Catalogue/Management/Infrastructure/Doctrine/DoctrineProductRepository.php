@@ -8,9 +8,9 @@ use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\ORM\NonUniqueResultException;
 use Doctrine\ORM\QueryBuilder;
 use Doctrine\Persistence\ManagerRegistry;
+use Healtho\Catalogue\Management\Application\Query\ProductSearch;
 use Healtho\Catalogue\Management\Domain\Product\Product;
 use Healtho\Catalogue\Management\Domain\Product\ProductRepository;
-use Healtho\Catalogue\Management\Domain\Product\ProductSearch;
 
 class DoctrineProductRepository extends ServiceEntityRepository implements ProductRepository
 {

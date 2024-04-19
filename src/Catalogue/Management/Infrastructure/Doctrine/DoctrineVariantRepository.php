@@ -8,9 +8,9 @@ use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\ORM\NonUniqueResultException;
 use Doctrine\ORM\QueryBuilder;
 use Doctrine\Persistence\ManagerRegistry;
+use Healtho\Catalogue\Management\Application\Query\VariantSearch;
 use Healtho\Catalogue\Management\Domain\Variant\Variant;
 use Healtho\Catalogue\Management\Domain\Variant\VariantRepository;
-use Healtho\Catalogue\Management\Domain\Variant\VariantSearch;
 
 class DoctrineVariantRepository extends ServiceEntityRepository implements VariantRepository
 {

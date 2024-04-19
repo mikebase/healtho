@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Healtho\Catalogue\Management\Domain\Variant;
+namespace Healtho\Catalogue\Management\Application\Query;
 
 final readonly class VariantSearch
 {

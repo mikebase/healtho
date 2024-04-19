@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Healtho\Catalogue\Management\Application\Command;
 
+use Healtho\Catalogue\Management\Application\Query\VariantSearch;
 use Healtho\Catalogue\Management\Domain\NotFound;
 use Healtho\Catalogue\Management\Domain\Variant\Variant;
 use Healtho\Catalogue\Management\Domain\Variant\VariantRepository;
-use Healtho\Catalogue\Management\Domain\Variant\VariantSearch;
 
 class UpdateVariantHandler
 {
